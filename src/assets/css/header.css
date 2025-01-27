@@ -1,0 +1,140 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    background: rgba(44, 62, 80, 0.95);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .header.hidden {
+    transform: translateY(-100%);
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .brand-logo {
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .brand-logo:hover {
+    transform: scale(1.05);
+  }
+  
+  .brand-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slideIn 0.5s ease;
+  }
+  
+  .nav-link {
+    color: white !important;
+    position: relative;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+    margin-right: 20px;
+   
+  }
+  
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
+  .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    color: white;
+    transition: all 0.3s ease;
+    width: 200px;
+  }
+  
+  .search-input:focus {
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+  }
+  
+  .search-button,
+  .close-button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .search-button:hover,
+  .close-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background: rgba(44, 62, 80, 0.98);
+    backdrop-filter: blur(8px);
+    transition: right 0.3s ease;
+    padding: 2rem;
+    z-index: 1001;
+  }
+  
+  .mobile-menu.active {
+    right: 0;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .search-container {
+      display: none;
+    }
+  
+    .navbar-nav {
+      display: none;
+    }
+  }
+  
+  

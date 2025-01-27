@@ -23,6 +23,8 @@ import WhyChooseUs from '../common-popup-modal/WhyChooseUs ';
 import HelpYou from '../common-popup-modal/HelpMentor';
 import ResourcesBoost from './ResourceBoost';
 import NeetSuccess from '../common-popup-modal/NeetSuccess';
+import Header from '../common-page/header';
+import Footer from '../common-page/footer';
 
 function Services() {
 
@@ -112,7 +114,9 @@ function Services() {
 
 
   return (
-    <Container sx={{ py: 8 }}>
+    <>
+    <Header/>
+      <Container sx={{ py: 8 }}>
     {/* Header Section */}
     <Box textAlign="center" mb={8} >
       <Typography variant="h3" fontWeight="bold" gutterBottom>
@@ -204,6 +208,9 @@ function Services() {
     <ResourcesBoost handleClose={handleIsBootClose} open={isBoot} />
     <NeetSuccess handleClose={handleIsNeetClose} open={isNeet} />
   </Container>
+  <Footer/>
+    </>
+  
   
   );
 }

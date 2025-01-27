@@ -85,22 +85,22 @@ const AboutPage = () => {
   // Mentor Data
   const mentors = [
     {
-      name: 'Dr. Ramesh Kumar',
+      name: 'Dr. Alok Mishra',
       title: 'Senior Mentor - NEET UG',
-      description: 'With over 15 years of experience in guiding NEET aspirants, Dr. Kumar specializes in personalized counselling and study strategies.',
-      avatar: 'https://i.pravatar.cc/100?img=8',
+      description: 'Dr. Alok Mishra form IMS BHU With over 2 years of experience in guiding NEET aspirants, Dr. Mishra specializes in personalized counselling and study strategies.',
+      avatar:  require('../assets/images/alok Mishra.jpg'),
     },
     {
-      name: 'Dr. Priya Sharma',
-      title: 'Head of NEET PG Counselling',
-      description: 'Dr. Sharma has mentored 500+ students to secure top PG medical colleges and is known for her expert counselling sessions.',
-      avatar: 'https://i.pravatar.cc/100?img=5',
+      name: 'Dr. Priyanshu kumar',
+      title: 'Head of NEET UG Counselling',
+      description: 'Dr. Priyanshu form Aiims Gorakhpur. He has mentored 500+ students to secure top NEET medical colleges and is known for his expert counselling sessions.',
+      avatar: require('../assets/images/Priyanshu.jpg'),
     },
     {
-      name: 'Dr. Anil Verma',
+      name: 'Dr. Jatin Singh',
       title: 'NEET Strategy Consultant',
-      description: 'Dr. Verma provides strategic guidance to students, helping them create and stick to an effective study plan.',
-      avatar: 'https://i.pravatar.cc/100?img=10',
+      description: 'Dr. Jatin Singh from Government medical College Mirzapur,He  provides strategic guidance to students, helping them create and stick to an effective study plan.',
+      avatar: require('../assets/images/jatin.jpg'),
     },
   ];
 
@@ -108,13 +108,13 @@ const AboutPage = () => {
   const successStories = [
     {
       name: 'Anjali Gupta',
-      story: 'Anjali secured a top rank in NEET UG 2023 and got admitted to AIIMS Delhi. She credits her success to the expert mentorship at Medical Mentor.',
-      avatar: 'https://i.pravatar.cc/100?img=11',
+      story: 'Anjali secured a top rank in NEET UG 2024 and got admitted to AIIMS Delhi. She credits her success to the expert mentorship at Medical Mentor.',
+      avatar: require('../assets/images/profile.png'),
     },
     {
       name: 'Rahul Sharma',
-      story: 'Rahul aced NEET PG 2023 and got into his dream specialization. He highlights the mock counselling sessions as a game-changer.',
-      avatar: 'https://i.pravatar.cc/100?img=12',
+      story: 'Rahul aced NEET UG 2024 and got into his dream specialization. He highlights the mock counselling sessions as a game-changer.',
+      avatar: require('../assets/images/profiles.png'),
     },
   ];
 

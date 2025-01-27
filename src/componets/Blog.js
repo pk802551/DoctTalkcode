@@ -28,36 +28,33 @@ const blogPosts = [
     id: 1,
     title: "Master NEET Biology: Complete Study Guide",
     category: "Biology",
-    image: "/placeholder.svg?height=200&width=400",
-    readTime: "8 min",
+    image: require('../assets/images/heart.webp'),
     excerpt: "Comprehensive guide to ace NEET Biology section with proven strategies and important topics...",
     author: {
-      name: "Dr. Sarah Johnson",
-      avatar: "/placeholder.svg?height=40&width=40"
+      name: "Dr. Alok Mishra",
+      avatar: require('../assets/images/alok Mishra.jpg')
     }
   },
   {
     id: 2,
     title: "Physics Problem-Solving Techniques",
     category: "Physics",
-    image: "/placeholder.svg?height=200&width=400",
-    readTime: "10 min",
+    image: require('../assets/images/physics.webp'),
     excerpt: "Learn effective problem-solving techniques for NEET Physics with step-by-step examples...",
     author: {
-      name: "Prof. Robert Chen",
-      avatar: "/placeholder.svg?height=40&width=40"
+      name: " Dr.Priyanshu",
+      avatar: require('../assets/images/Priyanshu.jpg')
     }
   },
   {
     id: 3,
     title: "Chemistry Formula Sheet & Tips",
     category: "Chemistry",
-    image: "/placeholder.svg?height=200&width=400",
-    readTime: "6 min",
+    image: require('../assets/images/chemistry.webp'),
     excerpt: "Essential chemistry formulas and quick tips to boost your NEET preparation...",
     author: {
-      name: "Dr. Emily White",
-      avatar: "/placeholder.svg?height=40&width=40"
+      name: "Dr. Jatin Singh",
+      avatar: require('../assets/images/jatin.jpg')
     }
   }
 ];

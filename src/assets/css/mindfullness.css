@@ -1,0 +1,49 @@
+.mindfulness-section {
+  background: linear-gradient(135deg, #1a2634 0%, #253545 100%);
+  color: white;
+}
+
+.main-title {
+  color: #3eb489;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.description {
+  color: #a0aec0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.course-type {
+  font-size: 1.25rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.stats-grid {
+  margin-top: 2rem;
+}
+
+.stat-card {
+  background-color: #253545;
+  text-align: center;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: scale(1.05);
+}
+
+.stat-number {
+  color: #3eb489;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  color: #a0aec0;
+  font-size: 1rem;
+}
