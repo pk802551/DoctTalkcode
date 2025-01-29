@@ -1,17 +1,19 @@
+/* Mindfulness Section Styling */
 .mindfulness-section {
   background: linear-gradient(135deg, #1a2634 0%, #253545 100%);
   color: white;
+  padding: 2rem 1rem;
 }
 
 .main-title {
   color: #3eb489;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .description {
   color: #a0aec0;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.8;
 }
 
@@ -38,7 +40,7 @@
 
 .stat-number {
   color: #3eb489;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
@@ -46,4 +48,41 @@
 .stat-label {
   color: #a0aec0;
   font-size: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .stat-number {
+    font-size: 1.5rem;
+  }
+
+  .stat-label {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-title {
+    font-size: 1.75rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
+
+  .stat-number {
+    font-size: 1.25rem;
+  }
+
+  .stat-label {
+    font-size: 0.8rem;
+  }
 }

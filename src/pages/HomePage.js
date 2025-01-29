@@ -13,17 +13,20 @@ import TeamSection from '../componets/team';
 
 const HomePage = () => {
   return (
-    <>
+    <div className="homepage">
       <Header />
       <Banner />
-      <HeroSection />
-      <MentorsSection/>
-      {/* <Services /> */}
-      <CourseSection/>
-      <MindfulnessSection/>
-      <TeamSection/>
+      <div className="container">
+        <HeroSection />
+        <MentorsSection />
+        {/* Uncomment Services if needed */}
+        {/* <Services /> */}
+        <CourseSection />
+        <MindfulnessSection />
+        <TeamSection />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

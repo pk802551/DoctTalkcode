@@ -7,6 +7,7 @@ import '../src/assets/css/course.css'
 import '../src/assets/css/header.css'
 import '../src/assets/css/banner.css'
 import '../src/assets/css/footer.css'
+import "../src/assets/css/homepage.css"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css"

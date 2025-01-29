@@ -1,0 +1,18 @@
+.homepage {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  
+  @media (max-width: 768px) {
+    .homepage {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .homepage {
+      padding: 5px;
+    }
+  }
+  

@@ -1,15 +1,15 @@
-import React from "react"
+import React from "react";
 
 export default function MentorsSection() {
-
   const backgrounds = [
-    require('../assets/images/eye.webp'),
-    require('../assets/images/kidny.webp'),
-    require('../assets/images/lady.jpg'),
-    require('../assets/images/some.webp'),
+    require("../assets/images/eye.webp"),
+    require("../assets/images/kidny.webp"),
+    require("../assets/images/lady.jpg"),
+    require("../assets/images/some.webp"),
   ];
+
   return (
-    <section className="mentors-section">
+    <section className="mentors-section py-5">
       <div className="container">
         {/* Section Header */}
         <div className="text-center mb-5">
@@ -23,17 +23,15 @@ export default function MentorsSection() {
         </div>
 
         {/* Expert Card */}
-        <div className="expert-card">
-          <div className="row g-0 align-items-center">
+        <div className="expert-card bg-light shadow-sm p-4 rounded">
+          <div className="row g-4 align-items-center">
             {/* Expert Image */}
             <div className="col-md-4">
-              <div className="p-3">
-                <img
-                  src={require('../assets/images/four.webp')}
-                  alt="Biology Expert"
-                  className="expert-image img-fluid"
-                />
-              </div>
+              <img
+                src={require("../assets/images/four.webp")}
+                alt="Biology Expert"
+                className="expert-image img-fluid rounded"
+              />
             </div>
 
             {/* Expert Content */}
@@ -47,13 +45,13 @@ export default function MentorsSection() {
                 </p>
 
                 {/* Mentor Grid */}
-                <div className="mentor-grid">
+                <div className="mentor-grid d-flex flex-wrap justify-content-center gap-3">
                   {backgrounds.map((image, index) => (
                     <div key={index} className="mentor-card">
                       <img
                         src={image}
-                        alt={`Mentor ${index + 1}`} 
-                        className="mentor-image"
+                        alt={`Mentor ${index + 1}`}
+                        className="mentor-image rounded-circle"
                       />
                     </div>
                   ))}
@@ -63,9 +61,6 @@ export default function MentorsSection() {
           </div>
         </div>
       </div>
-
-
     </section>
-  )
+  );
 }
-

@@ -12,7 +12,7 @@ export default function Header() {
     { title: "About Us", path: "/about" },
     { title: "Blog", path: "/blog" },
     { title: "Our Service", path: "/service" },
-    { title: "Contact", path: "/contact" },
+    { title: "Contact", path:"/contact" },
   ]
 
   useEffect(() => {

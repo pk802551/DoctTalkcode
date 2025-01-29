@@ -1,109 +1,44 @@
 .mentors-section {
-    padding: 60px 0;
-    background-color: #f8f9fa;
-  }
-  
-  .section-title {
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-  }
-  
-  .highlight {
-    color: #ff4500;
-  }
-  
-  .section-subtitle {
-    color: #666;
-    max-width: 800px;
-    margin: 0 auto 3rem;
-    line-height: 1.6;
-  }
-  
-  .expert-card {
-    background-color: #1b4d3e;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .expert-image {
-    width: 80%;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
-  
-  .expert-image:hover {
-    transform: scale(1.05);
-  }
-  
-  .expert-content {
-    color: white;
-    padding: 2rem;
-  }
-  
-  .mentor-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
-  }
-  
-  .mentor-card {
-    background: white;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    aspect-ratio: 1;
-  }
-  
-  .mentor-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  .mentor-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .whatsapp-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #25d366;
-    color: white;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    z-index: 1000;
-  }
-  
-  .whatsapp-button:hover {
-    background-color: #128c7e;
-    transform: scale(1.1);
-  }
-  
-  @media (max-width: 768px) {
-    .mentors-section {
-      padding: 40px 0;
-    }
-  
-    .expert-content {
-      padding: 1.5rem;
-    }
-  
-    .mentor-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.expert-card {
+  border-radius: 10px;
+}
+
+.expert-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.mentor-grid {
+  margin-top: 1rem;
+}
+
+.mentor-card {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.mentor-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

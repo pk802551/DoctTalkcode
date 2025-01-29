@@ -31,7 +31,7 @@ const AnimatedCounter = ({ end, duration = 2000, suffix = "" }) => {
 };
 
 export default function MindfulnessSection() {
-  return ( 
+  return (
     <section className="mindfulness-section py-5">
       <div className="container text-center text-white">
         <h1 className="heading mb-4">How and Where to Learn Mindfulness</h1>
@@ -42,30 +42,30 @@ export default function MindfulnessSection() {
 
         <div className="course-types mb-5">
           <h2 className="heading mb-4">Introductory Courses, Taster Sessions, and Groups</h2>
-          <h2 className="subheading">Formal Mindfulness Courses</h2>
+          <h2 className="course-type">Formal Mindfulness Courses</h2>
         </div>
 
-        <div className="row text-center stats-grid">
+        <div className="row stats-grid g-4">
           <div className="col-6 col-md-3">
-            <div className="stat-card bg-dark rounded shadow p-4">
+            <div className="stat-card rounded shadow p-4">
               <AnimatedCounter end={5} suffix="k" />
               <div className="stat-label">Participants</div>
             </div>
           </div>
           <div className="col-6 col-md-3">
-            <div className="stat-card bg-dark rounded shadow p-4">
+            <div className="stat-card rounded shadow p-4">
               <AnimatedCounter end={60} suffix="%" />
               <div className="stat-label">Satisfaction Rate</div>
             </div>
           </div>
           <div className="col-6 col-md-3">
-            <div className="stat-card bg-dark rounded shadow p-4">
+            <div className="stat-card rounded shadow p-4">
               <AnimatedCounter end={100} />
               <div className="stat-label">Sessions Conducted</div>
             </div>
           </div>
           <div className="col-6 col-md-3">
-            <div className="stat-card bg-dark rounded shadow p-4">
+            <div className="stat-card rounded shadow p-4">
               <AnimatedCounter end={1230} />
               <div className="stat-label">Total Hours</div>
             </div>

@@ -56,21 +56,6 @@ const NeetSuccess = ({ handleClose, open }) => {
                       
                        
                     </Box>
-
-
-                    {/* Image Section */}
-                    <Box
-                        component="img"
-                        src="https://via.placeholder.com/300" // Replace with actual image URL
-                        alt="Confused Students"
-                        sx={{
-                            display: "block",
-                            mx: "auto",
-                            mt: 2,
-                            maxWidth: "100%",
-                            borderRadius: "8px",
-                        }}
-                    />
                 </Paper>
             </Modal>
  
