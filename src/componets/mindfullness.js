@@ -43,7 +43,9 @@ export default function MindfulnessSection() {
         <div className="course-types mb-5">
           <h2 className="heading mb-4">Introductory Courses, Taster Sessions, and Groups</h2>
           <h2 className="course-type">Formal Mindfulness Courses</h2>
+          
         </div>
+        
 
         <div className="row stats-grid g-4">
           <div className="col-6 col-md-3">

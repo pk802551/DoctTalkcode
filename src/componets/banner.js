@@ -5,9 +5,9 @@ export default function Banner() {
   const [isHovered, setIsHovered] = useState(false)
 
   const backgrounds = [
-    require('../assets/images/profiles.png'),
-    require('../assets/images/doctors.png'),
-    require('../assets/images/seven.webp')
+    require('../assets/images/six.png'),
+    require('../assets/images/new.png'),
+    require('../assets/images/seven.png')
   ];
   
   const slideContent = [

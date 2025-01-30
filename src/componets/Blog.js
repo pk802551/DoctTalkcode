@@ -28,7 +28,7 @@ const blogPosts = [
     id: 1,
     title: "Master NEET Biology: Complete Study Guide",
     category: "Biology",
-    image: require('../assets/images/heart.webp'),
+    image: require('../assets/images/3d.png'),
     excerpt: "Comprehensive guide to ace NEET Biology section with proven strategies and important topics...",
     author: {
       name: "Dr. Alok Mishra",
@@ -39,7 +39,7 @@ const blogPosts = [
     id: 2,
     title: "Physics Problem-Solving Techniques",
     category: "Physics",
-    image: require('../assets/images/physics.webp'),
+    image: require('../assets/images/physics.png'),
     excerpt: "Learn effective problem-solving techniques for NEET Physics with step-by-step examples...",
     author: {
       name: " Dr.Priyanshu",
@@ -50,7 +50,7 @@ const blogPosts = [
     id: 3,
     title: "Chemistry Formula Sheet & Tips",
     category: "Chemistry",
-    image: require('../assets/images/chemistry.webp'),
+    image: require('../assets/images/chemistry.png'),
     excerpt: "Essential chemistry formulas and quick tips to boost your NEET preparation...",
     author: {
       name: "Dr. Jatin Singh",

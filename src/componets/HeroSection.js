@@ -25,12 +25,12 @@ export default function HeroSection() {
           <div className="col-lg-6 col-md-12 hero-images">
             <div className="images-wrapper">
               <img
-                src={require('../assets/images/meeter.webp')}
+                src={require('../assets/images/meeter.png')}
                 alt="Mentor"
                 className="image-item"
               />
               <img
-                src={require('../assets/images/3d.webp')}
+                src={require('../assets/images/3d.png')}
                 alt="Online mentorship"
                 className="image-item"
               />

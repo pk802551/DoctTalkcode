@@ -2,10 +2,10 @@ import React from "react";
 
 export default function MentorsSection() {
   const backgrounds = [
-    require("../assets/images/eye.webp"),
-    require("../assets/images/kidny.webp"),
+    require("../assets/images/eye.png"),
+    require("../assets/images/kidny.png"),
     require("../assets/images/lady.jpg"),
-    require("../assets/images/some.webp"),
+    require("../assets/images/some.png"),
   ];
 
   return (
@@ -28,7 +28,7 @@ export default function MentorsSection() {
             {/* Expert Image */}
             <div className="col-md-4">
               <img
-                src={require("../assets/images/four.webp")}
+                src={require("../assets/images/four.png")}
                 alt="Biology Expert"
                 className="expert-image img-fluid rounded"
               />

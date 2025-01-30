@@ -23,13 +23,12 @@ export default function CourseSection() {
               healthcare, blockchain, education, insurance, and more, by
               strengthening their ideas with customized solutions.
             </p>
-            <button className="learn-more-btn">Learn More</button>
           </div>
 
           <div className="col-lg-6 col-md-12">
             <div className="illustration text-center">
               <img
-                src={require("../assets/images/five.webp")}
+                src={require("../assets/images/five.png")}
                 alt="Tech skills illustration"
                 className="img-fluid"
               />
