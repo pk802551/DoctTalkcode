@@ -48,9 +48,9 @@ const TeamMember = ({ name, role, videoUrl, isPlaying, onPlay, onStop }) => {
 
 export default function TeamSection() {
   const teamMembers = [
-    { name: "Shikhar Shukla", videoUrl: videoOne },
-    { name: "Vidhushi Nautiyal", videoUrl: videosecond },
-    { name: "Shaurya Agrwal", videoUrl: videothird },
+    { name: "Shikhar Shukla", videoUrl: "https://videobucketapp.s3.eu-north-1.amazonaws.com/one.mp4"},
+    { name: "Vidhushi Nautiyal", videoUrl: "https://videobucketapp.s3.eu-north-1.amazonaws.com/second.mp4" },
+    { name: "Shaurya Agrwal", videoUrl: "https://videobucketapp.s3.eu-north-1.amazonaws.com/third.mp4" },
   ];
 
   const [playingVideo, setPlayingVideo] = useState(null);
