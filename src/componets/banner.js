@@ -5,7 +5,7 @@ export default function Banner() {
   const [isHovered, setIsHovered] = useState(false)
 
   const backgrounds = [
-    require('../assets/images/six.webp'),
+    require('../assets/images/profiles.png'),
     require('../assets/images/doctors.png'),
     require('../assets/images/seven.webp')
   ];
