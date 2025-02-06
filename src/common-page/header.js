@@ -32,7 +32,7 @@ export default function Header() {
         <div className="container">
           <a className="navbar-brand" href="/">
           <img src={require('../assets/images/logo.jpg')} alt="Logo" className="brand-logo" />
-          <span className="brand-text">Doct Talk</span>
+          <span className="brand-text">DocTalk</span>
           </a>
 
           {/* Desktop Navigation */}
